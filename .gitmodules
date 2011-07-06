@@ -1,0 +1,3 @@
+[submodule "fb-cocoa"]
+	path = fb-cocoa
+	url = https://github.com/jeffd/fb-cocoa.git
