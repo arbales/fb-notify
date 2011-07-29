@@ -293,26 +293,26 @@ FBConnect* connectSession;
 }
 
 // Sent when a valid update is found by the update driver.
-- (void)updater:(SUUpdater *)suUpdater didFindValidUpdate:(SUAppcastItem *)update {
-  NSLog(@"update found version: %@", [update versionString]);
-}
+//- (void)updater:(SUUpdater *)suUpdater didFindValidUpdate:(SUAppcastItem *)update {
+//  NSLog(@"update found version: %@", [update versionString]);
+//}
 
 // Sent when a valid update is not found.
-- (void)updaterDidNotFindUpdate:(SUUpdater *)update
-{
-  NSLog(@"checked for update, and no update found");
-}
+//- (void)updaterDidNotFindUpdate:(SUUpdater *)update
+//{
+///  NSLog(@"checked for update, and no update found");
+//}
 
 // Sent when the appcast has loaded
-- (void)updater:(SUUpdater *)update didFinishLoadingAppcast:(SUAppcast *)appcast {
-  NSMutableArray* loadedVersions = [[NSMutableArray alloc] init];
-  for (SUAppcastItem* item in [appcast items]) {
-    [loadedVersions addObject:[item versionString]];
-  }
-  NSLog(@"appcast loaded. your version: %@, loaded versions: %@",
-        [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"],
-        [loadedVersions componentsJoinedByString:@", "]);
-}
+//- (void)updater:(SUUpdater *)update didFinishLoadingAppcast:(SUAppcast *)appcast {
+//  NSMutableArray* loadedVersions = [[NSMutableArray alloc] init];
+//  for (SUAppcastItem* item in [appcast items]) {
+//    [loadedVersions addObject:[item versionString]];
+//  }
+//  NSLog(@"appcast loaded. your version: %@, loaded versions: %@",
+//        [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"],
+//        [loadedVersions componentsJoinedByString:@", "]);
+//}
 
 #pragma mark FB Session delegate methods
 - (void)facebookConnectLoggedIn:(FBConnect*)connect withError:(NSError*)err
