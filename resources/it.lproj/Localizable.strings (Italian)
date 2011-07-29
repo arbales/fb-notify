@@ -1,0 +1,45 @@
+/* Link to the News Feed */
+"News Feed" = "Notizie";
+
+/* Link for Status HUD */
+"Share" = "Condividi";
+
+/* Attachments */
+"Add Photo" = "Aggiungi foto";
+"Remove Photo" = "Rimuovi foto";
+"Remove Link" = "Rimuovi link";
+"Remove Attachment" = "Rimuovi allegato";
+"Drag a photo here or click to browse" = "Trascina qui una foto o fai click su sfoglia";
+
+/* Link to Compose Message */
+"Compose New Message" = "Componi nuovo messaggio";
+
+/* Online Status */
+"Connecting" = "Connessione";
+"Not Online" = "Disconnesso";
+"Login to Facebook" = "Connetti a Facebook";
+
+/* Header for Notifications */
+"Notifications" = "Notifiche";
+
+/* Link to view more notifications */
+"MORE_NOTIFICATIONS_1" = "Altra notifica"; /* 1 More Notification */
+"MORE_NOTIFICATIONS_2" = "Altre notifiche"; /* 2 More Notifications */
+"MORE_NOTIFICATIONS_MANY" = "Altre notifiche"; /* 5 More Notifications */
+
+/* Header for Inbox */
+"Messages" = "Messaggi";
+
+/* Link to view more messages */
+"MORE_MESSAGES_1" = "Altro messaggio"; /* 1 More Message */
+"MORE_MESSAGES_2" = "Altri messaggi"; /* 2 More Messages */
+"MORE_MESSAGES_MANY" = "Altri messaggi"; /* 5 More Messages */
+
+/* If you have an empty Inbox */
+"No Inbox Messages" = "Nessun messaggio";
+
+/* Link to Preferences Window */
+"Preferences" = "Preferenze";
+
+/* Link to Quit */
+"Quit Facebook Notifications" = "Esci";
